@@ -1,0 +1,15 @@
+{
+  "archive_sha256": "8e067d9ea514a7606e070150f9323df1f9ac5b7dcbf7a325d7c86c291b0c102c",
+  "files": {
+    "asof_capacity-available.json": "45136f0c117cf38fd95a78ed028311d4e4a3da19fae5fd915b2fe5195dc3ed6d",
+    "asof_capacity-technical.json": "34336d87b3c6973b4a5f7926574d166aad95ba42065649df7c7c4b45b411e06f",
+    "asof_firm-booked.json": "46f2edac5eb7dec6d607fdbd9653d02def536bc7fe1938ebe81e16d6d0dee839",
+    "asof_interruptible.json": "b3fbc4be6b8b84042017f47d61e284eac42934b7d33757ccb082d4aa51b799ed",
+    "capacity-available.json": "717850e2fbf9a52a0a9f2cbcf26b17af7f04dd13d1b80a26703ade41738fc0ab",
+    "capacity-technical.json": "9aaf084ac3660190816d1675b03b95ad89d6b5a23103ef43db934ee5faf6b43c",
+    "firm-booked.json": "f32c5759b413c8030a8fceb2a7ac8a971d37d8e18ce389b7a932bf21b4054731",
+    "interruptible.json": "05c2a426da2e9396ad9391d3e6e09c649cc67d70fc1f23b807f843782da9da22",
+    "joined_flow.json": "70295a3e77235efedcc4b282367a51e82aa4d3eae5b88579686d7404337ceef7",
+    "narrow_technical.json": "e802d29e80b44d90f25649a2d2bc7bafdf22b33a03b450b9729ef90c0fce79c3"
+  }
+}
