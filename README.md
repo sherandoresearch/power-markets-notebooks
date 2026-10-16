@@ -12,8 +12,10 @@ The capacity calculation preserves the reviewed interval-containment and vintage
 
 ## Open the notebooks
 
-- [NB-01 in Colab](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/book-labs-v0.1.0/reports/book-labs/published/NB-01.ipynb)
-- [NB-11-CAPACITY in Colab](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/book-labs-v0.1.0/reports/book-labs/published/NB-11-CAPACITY.ipynb)
+- [NB-01 in Colab](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v0.1.1/reports/book-labs/published/NB-01.ipynb)
+- [NB-11-CAPACITY in Colab](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v0.1.1/reports/book-labs/published/NB-11-CAPACITY.ipynb)
 - [Series notebook contents](https://sherandoresearch.github.io/power-markets-series/notebooks.html)
 
 This is a minimal public distribution. The authoring repository and raw observed inputs remain private.
+
+Notebook documentation revision 0.1.1 adds direct reading links and explains the Volume V context of the ENTSOG capacity example. The verified helper release remains 0.1.0; code, data, and reviewed outputs are unchanged.
