@@ -1,21 +1,45 @@
-# Power Markets notebook helpers 0.1.0
+# Power Markets API notebooks 1.43
 
-Supports NB-01 and NB-11-CAPACITY on Python 3.12. Open the published notebook in Colab, connect a Python CPU runtime, and run all cells. The first cell verifies and installs this versioned helper archive and its pinned dependencies. Start with a fresh runtime; if dependencies have already been imported at different versions, restart the session first.
+These 29 output-free Jupyter companions use the existing Workbench HTTPS API. NB-00 verifies a supplied input bundle offline. The other 28 notebooks request methods version 1.43.0 and require your individual API key and separately supplied private inputs.
 
-NB-01 includes the existing equal-reactance triangle manifest and published teaching assumptions. No new synthetic data is generated.
+Use a fresh Python 3.12 or 3.13 kernel. Run the helper setup cell, select your private input directory or ZIP, then run the teaching cells in order. Setup verifies the exact public helper ZIP and every member before extraction. If the ZIP is absent locally, setup downloads only the fixed release archive.
 
-NB-11-CAPACITY requires the separately supplied `nb-11-capacity-inputs-v1.zip`. Upload only through its notebook upload cell. The archive is not in this release or repository. Uploading transfers it to your Google Colab runtime; it does not publish it to GitHub. Do not share a saved notebook containing new sensitive outputs. Previously reviewed reader results remain in the downloadable notebook.
+- [Download all notebooks and helpers](https://github.com/sherandoresearch/power-markets-notebooks/releases/download/notebooks-v1.43.0/notebooks-1.43.0.zip)
+- [Download the helpers](https://github.com/sherandoresearch/power-markets-notebooks/releases/download/notebooks-v1.43.0/notebook-methods-v1.43.0.zip)
+- [Series reading guide and previously reviewed results](https://sherandoresearch.github.io/power-markets-series/notebooks.html)
 
-For local Jupyter, set BOOK_LABS_INPUT_ZIP to the private archive path before running NB-11-CAPACITY. A release download is still required. BOOK_LABS_RELEASE_ZIP can point to an offline copy of the exact release ZIP; checksum verification remains mandatory. No API keys or EWB access are needed.
+Local input inspection, tables, receipts and plotting remain available. Use local Jupyter when inputs must stay on your computer. Colab uploads enter your Google runtime. Do not publish newly executed notebooks containing private inputs or outputs. Google-hosted execution has not been validated.
 
-The capacity calculation preserves the reviewed interval-containment and vintage checks. Hashes bind uploads to the retained capture bytes; they do not independently validate the upstream source. The public input contract contains hashes and filenames only.
+This distribution contains no raw inputs, API credentials, execution receipts, saved outputs or private method implementations. Methods use one external access class with individual revocable keys. Successful execution validates a numerical contract; it does not accept a scientific claim. Previous public release tags retain their historical contents.
 
-## Open the notebooks
+## Open in Colab
 
-- [NB-01 in Colab](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v0.1.1/reports/book-labs/published/NB-01.ipynb)
-- [NB-11-CAPACITY in Colab](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v0.1.1/reports/book-labs/published/NB-11-CAPACITY.ipynb)
-- [Series notebook contents](https://sherandoresearch.github.io/power-markets-series/notebooks.html)
-
-This is a minimal public distribution. The authoring repository and raw observed inputs remain private.
-
-Notebook documentation revision 0.1.1 adds direct reading links and explains the Volume V context of the ENTSOG capacity example. The verified helper release remains 0.1.0; code, data, and reviewed outputs are unchanged.
+- [NB-00](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-00.ipynb)
+- [NB-01](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-01.ipynb)
+- [NB-02](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-02.ipynb)
+- [NB-03](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-03.ipynb)
+- [NB-04](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-04.ipynb)
+- [NB-05](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-05.ipynb)
+- [NB-06](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-06.ipynb)
+- [NB-07](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-07.ipynb)
+- [NB-08](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-08.ipynb)
+- [NB-09](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-09.ipynb)
+- [NB-10](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-10.ipynb)
+- [NB-11](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-11.ipynb)
+- [NB-11-CAPACITY](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-11-CAPACITY.ipynb)
+- [NB-11-ENTSOG](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-11-ENTSOG.ipynb)
+- [NB-12](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-12.ipynb)
+- [NB-12-AVAILABILITY](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-12-AVAILABILITY.ipynb)
+- [NB-12-FUTURES](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-12-FUTURES.ipynb)
+- [NB-13](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-13.ipynb)
+- [NB-13-MISO](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-13-MISO.ipynb)
+- [NB-14](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-14.ipynb)
+- [NB-15](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-15.ipynb)
+- [NB-16](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-16.ipynb)
+- [NB-16-MISO](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-16-MISO.ipynb)
+- [NB-17](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-17.ipynb)
+- [NB-17-JAO](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-17-JAO.ipynb)
+- [NB-18](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-18.ipynb)
+- [NB-19](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-19.ipynb)
+- [NB-20](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-20.ipynb)
+- [NB-20-ELIA](https://colab.research.google.com/github/sherandoresearch/power-markets-notebooks/blob/notebooks-v1.43.0/reports/book-labs/published/NB-20-ELIA.ipynb)
